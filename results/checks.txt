@@ -1,0 +1,40 @@
+closed form OK by algebra: pi_n = Lambda_mu(eta*n*L)/(eta*n)
+s=        0  pi/L = 0.01000  (mean 0.010, sup 0.050)
+s=       10  pi/L = 0.01018  (mean 0.010, sup 0.050)
+s=       50  pi/L = 0.01099  (mean 0.010, sup 0.050)
+s=      100  pi/L = 0.01214  (mean 0.010, sup 0.050)
+s=      500  pi/L = 0.02333  (mean 0.010, sup 0.050)
+s=     1000  pi/L = 0.03133  (mean 0.010, sup 0.050)
+s=     5000  pi/L = 0.04372  (mean 0.010, sup 0.050)
+s=    20000  pi/L = 0.04789  (mean 0.010, sup 0.050)
+s=   100000  pi/L = 0.04945  (mean 0.010, sup 0.050)
+monotone increasing in s: True
+s=100: load Beta(2,8)=0.00214  Beta(1,4)=0.00432 (wider prior => bigger)
+s=1000: load Beta(2,8)=0.02133  Beta(1,4)=0.02753 (wider prior => bigger)
+s=10000: load Beta(2,8)=0.03631  Beta(1,4)=0.03784 (wider prior => bigger)
+WTP small-theta expansion: theta_B*(exp(L_s*gamma) - 1)/gamma
+m(0.1) = 1.052
+m(0.25) = 1.136
+m(0.5) = 1.297
+m(1.0) = 1.718
+m(1.5) = 2.321
+m(2.0) = 3.195
+m(3.0) = 6.362
+exact WTP/L at theta=0.01, gL=0.5: 0.01293  vs approx 0.01297
+exact WTP/L at theta=0.01, gL=1.0: 0.01704  vs approx 0.01718
+exact WTP/L at theta=0.01, gL=2.0: 0.03097  vs approx 0.03195
+theta=0.01, tau=0.05: pi*/L=0.0571, multiple of E[loss]=5.71x
+theta=0.01, tau=0.07: pi*/L=0.0748, multiple of E[loss]=7.48x
+theta=0.01, tau=0.1: pi*/L=0.1000, multiple of E[loss]=10.00x
+theta=0.02, tau=0.07: pi*/L=0.0841, multiple of E[loss]=4.21x
+theta=0.005, tau=0.07: pi*/L=0.0701, multiple of E[loss]=14.02x
+jump: pre=0.0841 post=0.1168 => +38.9%
+yr0: 0.1168
+yr1: 0.1086 (-7.0%)
+yr2: 0.1050 (-3.3%)
+yr3: 0.1028 (-2.1%)
+yr4: 0.1013 (-1.4%)
+yr5: 0.1002 (-1.1%)
+yr6: 0.0994 (-0.8%)
+yr7: 0.0987 (-0.7%)
+yr8: 0.0981 (-0.6%)
